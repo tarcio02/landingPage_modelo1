@@ -1,0 +1,3 @@
+criar uma Landing Page para uma empresa com bootstrap 
+contendo 4 seções 
+utilizando carousel, cards e varias outras opções que o bootdtrap tem a ofrecer

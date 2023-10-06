@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Slim&family=Raleway:wght@300&display=swap');
+
+body{
+    font-family: 'Nova Slim', cursive;
+}
+.navbar{
+    background-color: #3522fe;
+}
+
+.nav .nav-link.active{
+    background-color: white;
+    color: #3522fe;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: white;
+}
+
+.nav-brand{
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
