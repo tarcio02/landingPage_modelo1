@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Slim&family=Raleway:wght@300&display=swap');
-
+/* estlização do header*/
 body{
     font-family: 'Nova Slim', cursive;
 }
@@ -24,4 +24,14 @@ body{
 
 .navbar-toggler{
     background-color: white;
+}
+
+/* estlização da seção sobre a empresa*/
+.carousel-item img{
+    height: 600px;
+    width: 80%;
+    margin: auto;
+}
+.descricao{
+    margin-left: 10%;
 }
