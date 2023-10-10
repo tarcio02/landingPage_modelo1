@@ -1,1 +1,1 @@
-neste commit foi realizado a inserção estilização do carousel slide 
+neste commit foi completado toda a seção sobre a empresa

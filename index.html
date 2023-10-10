@@ -9,63 +9,83 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <header class="navbar navbar-expand-lg stick-top p-4">
+    <header class="navbar navbar-expand-lg stick-top p-4" id="cabecalho">
         <div class="container">
-            <h1 class="navbar-brand m-0">Nome da sua Empresa</h1>
+            <h1 class="navbar-brand m-0 section-title">Nome da sua Empresa</h1>
             <button class="navbar-toggler mb-2" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw-bold">
-                        <a class="nav-link active" href="">
+                        <a class="nav-link" href="#sobre-a-empresa">
                             <i class="bi bi-buildings me-1"></i>
-                            sobre a empresa
+                            Sobre a Empresa
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">
                             <i class="bi bi-crosshair me-1"></i>
-                            missão
+                            Missão
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">
                             <i class="bi bi-kanban me-1"></i>
-                            projetos
+                            Projetos
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">
                             <i class="bi bi-chat-left-text me-1"></i>
-                            faça um orçamento
+                            Faça um Orçamento
                         </a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section id="sobre-a-empresa">
-        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="3000">
-                    <img class="d-block" src="https://cdn.pixabay.com/photo/2019/02/10/09/21/lecture-3986809_1280.jpg" alt="palestra">
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="sobre-a-empresa">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./img/girafa.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./img/reunião.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="https://picsum.photos/1280/420" alt="">
+                    </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img class="d-block" src="https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_1280.jpg" alt="reunião">
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
                 </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img class="d-block" src="https://cdn.pixabay.com/photo/2017/05/04/16/37/meeting-2284501_1280.jpg" alt="desenvolvimento de projeto ">
+                
+            </div>
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./img/building-410266_1280.jpg" class="rounded">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="section-title">Sobre <span>a Empresa</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos expedita consectetur velit delectus sint ex alias temporibus eaque quasi, veniam, doloremque quibusdam aspernatur necessitatibus adipisci eveniet dolores blanditiis amet qui!</p>
+                        <h3 class="section-title">Nossa <span>Cultura</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptates voluptas non quia. Perferendis, officia, recusandae similique doloremque incidunt reprehenderit sequi numquam odit quae beatae laboriosam et deleniti fuga quidem.</p>
+                        <ul>
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-indicators">
-                <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
-            </div>
-            
-        </div>
-    </section>
+        </section>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </section>
 </body>
