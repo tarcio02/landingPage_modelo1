@@ -1,1 +1,1 @@
-neste commit foi completado toda a seção sobre a empresa
+neste commit foi realizado a criação da seção "nossa missão" porém ainda resta mudar alguns estilos de icones
