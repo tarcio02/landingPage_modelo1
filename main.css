@@ -13,14 +13,15 @@ body{
     background-color: #3522fe;
 }
 
-.nav .nav-link.active{
+#cabecalho .nav .nav-link.active{
     background-color: white;
     color: #3522fe;
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover{
+.navbar-brand:hover,
+.nav-projetos .nav-link.active:hover{
     color: white;
 }
 
@@ -42,11 +43,61 @@ body{
     color: #3522fe;
 }
 
-#sobre-a-empresa{
-    background-color: #ccffff;
+#sobre-a-empresa, #projetos{
+    background-color: #d6e9fc;
 }  
 
-/* nossa missão */
 .text-colored{
     color: #3522fe;
+}  
+
+.social-links{
+    padding-left: 0;
+    width: 360px;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    transition: .6s;
+}
+
+.social-links a{
+    text-decoration: none;
+    font-size: 30px;
+    justify-content: space-between;
+}
+
+.social-links li:hover{
+    opacity: .5;
+
+}
+
+/* projetos */
+.nav-projetos .nav-link.active{
+    background-color: #3522fe;
+    color: white;
+}
+
+.nav-projetos .nav-link:hover{
+    color: #3522fe;
+}
+
+.tab-pane img{
+    height: 300px;
+    width: 250px;
+}
+.btn{
+    background-color: #3522fe;
+    color:white;
+    border: none;
+    transition: .6s;
+}
+
+.btn:hover{
+    background-color: #3522fe;
+    color: white;
+    opacity: .9;
+    transform: scale(1.02);
 }

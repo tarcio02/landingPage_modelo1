@@ -1,1 +1,1 @@
-neste commit foi realizado a criação da seção "nossa missão" porém ainda resta mudar alguns estilos de icones
+neste commit foi finalizado a criação de todas as seção, restando apenas corrigir alguns detalhes e a resposividade
