@@ -13,9 +13,17 @@ body{
     background-color: #3522fe;
 }
 
+#cabecalho .nav .nav-link:hover{
+    color:black;
+    background-color:white;
+    opacity: .1;
+}
+
 #cabecalho .nav .nav-link.active{
     background-color: white;
     color: #3522fe;
+    opacity: 1;
+    transform: scale(1.00);
 }
 
 #cabecalho .nav .nav-link,
@@ -23,6 +31,7 @@ body{
 .navbar-brand:hover,
 .nav-projetos .nav-link.active:hover{
     color: white;
+    transition: .8s;
 }
 
 .navbar-toggler{
@@ -32,11 +41,6 @@ body{
 /* estlização da seção sobre a empresa */
 .carousel-item img{
     height: 420px;
-}
-
-.container img{
-    width: 450px;
-    height: 500px;
 }
 
 .section-title span{
@@ -100,4 +104,10 @@ body{
     color: white;
     opacity: .9;
     transform: scale(1.02);
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
 }

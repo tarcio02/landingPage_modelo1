@@ -1,1 +1,0 @@
-neste commit foi finalizado a criação de todas as seção, restando apenas corrigir alguns detalhes e a resposividade
